@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="bn" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>বাংলা কুইজ</title>
+</head>
+<body>
+<h2>বাংলা কুইজ</h2>
+<form action="/submit" method="post">
+    <label>শিক্ষার্থীর আইডি:</label><br>
+    <input type="text" name="studentId" required><br><br>
+
+    <p>১. বাংলাদেশের রাজধানী কোনটি?</p>
+    <input type="radio" name="q1" value="ঢাকা" required> ঢাকা<br>
+    <input type="radio" name="q1" value="চট্টগ্রাম"> চট্টগ্রাম<br>
+    <input type="radio" name="q1" value="রাজশাহী"> রাজশাহী<br>
+    <input type="radio" name="q1" value="বরিশাল"> বরিশাল<br><br>
+
+    <p>২. নিচের কোনটি একটি প্রোগ্রামিং ভাষা?</p>
+    <input type="radio" name="q2" value="বাংলা" required> বাংলা<br>
+    <input type="radio" name="q2" value="ইংরেজি"> ইংরেজি<br>
+    <input type="radio" name="q2" value="পাইথন"> পাইথন<br>
+    <input type="radio" name="q2" value="গণিত"> গণিত<br><br>
+
+    <button type="submit">জমা দিন</button>
+</form>
+</body>
+</html>
